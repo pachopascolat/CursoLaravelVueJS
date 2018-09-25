@@ -16,8 +16,14 @@ Route::get('/', function () {
 });
 
 Route::resource('vianda', 'ViandaController');
+Route::resource('viandas', 'ViandaController');
+
 Route::resource('persona', 'PersonaController');
+Route::resource('personas', 'PersonaController');
+
 Route::resource('pedido', 'PedidoController');
+Route::resource('pedidos', 'PedidoController');
+
 
 
 
